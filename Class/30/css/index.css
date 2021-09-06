@@ -1,0 +1,10 @@
+body{
+	overflow: hidden;
+}
+#window{
+	width: 20%;
+	height: 20%;
+	background-image: url(../1.png);
+	background-size: cover;
+	
+}

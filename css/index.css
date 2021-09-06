@@ -1,0 +1,136 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/bg7.jpg);
+}
+h2{
+	font-size: 30px;
+	color:black;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 100vh;
+
+}
+.battle{
+	width: 75%;
+}
+#rank{
+	padding: 5px;
+	width: 17%;
+}
+#rank div{
+	margin-top: 10px;
+}
+.rankList{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	color:white;
+	opacity:0.7;
+	border-radius: 5px;
+	
+}
+
+h2{
+	text-align: center;
+}
+#countryList{
+	width: 100%;
+	border-radius: 5px;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	background-image: url(../img/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+}
+.textCountry{
+	color:white;
+	font-size: 20px;
+	background-color: black;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+.country{
+	margin:20px;
+	width:120px;
+	height: 50px;
+	border:solid 2px black;
+	padding: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-position: center;
+	background-size:cover;
+}
+.textCountry{
+	position: relative;
+	top:-30px;
+}
+.flag{
+	width: 100px;
+	
+}
+#countryList div{
+	cursor:pointer;
+}
+.user div{
+ cursor:pointer;
+}
+.button{
+	display: inline-block;
+	background-color: orange;
+	color:white;
+	border-radius: 5px;
+	padding: 3px;
+	font-size: 35px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.batleBlock{
+	width: 100%;
+	padding: 20px;
+	margin-top:30px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-image: url(../img/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.batleElem{
+	width: 250px;
+	padding: 10px;
+	display:flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	text-align: center;
+	background-color: gray;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+.win{
+	color:yellow;
+	font-size: 18px;
+	background-color: black;
+}
+.loose{
+	color:red;
+	font-size: 18px;
+	background-color: black;
+}
+.draw{
+	color:white;
+	font-size: 18px;
+	background-color: black;
+}
